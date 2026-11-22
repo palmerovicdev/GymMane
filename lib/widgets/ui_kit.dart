@@ -149,7 +149,7 @@ class SoftCard extends StatelessWidget {
 }
 
 EdgeInsets sheetPad(BuildContext context, {double bottom = 28}) =>
-    EdgeInsets.fromLTRB(20, 12, 20, bottom + MediaQuery.paddingOf(context).bottom);
+    EdgeInsets.fromLTRB(20, 12, 20, bottom + MediaQuery.viewPaddingOf(context).bottom);
 
 class SearchField extends StatelessWidget {
   const SearchField({
